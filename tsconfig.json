@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

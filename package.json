@@ -1,0 +1,26 @@
+{
+  "name": "preact-ts-parcel",
+  "version": "1.2.0",
+  "description": "Preact + Typescript + Parcel Starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html -p 4200",
+    "build": "parcel build ./src/index.html --public-url '/'"
+  },
+  "keywords": [
+    "Typescript",
+    "Preact",
+    "Parcel"
+  ],
+  "author": "Albert Alises",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^8.2.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-typescript": "^0.7.1",
+    "prettier": "^1.11.1",
+    "typescript": "^2.8.1"
+  }
+}
