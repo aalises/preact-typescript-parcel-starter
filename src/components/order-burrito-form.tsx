@@ -25,7 +25,7 @@ export default class OrderBurritoForm extends ComponentForm<any, orderBurritoFor
     const validate = orderBurritoFormModel.validate(this.state.form);
     if (validate.success) {
       if (this.state.msg) this.setState(state => ({ errMsg: '' }))
-      this.setState(state => ({ msg: `Your petition of a ${this.state.form.size} ${this.state.form.type} burrito ${this.state.form.toTakeAway && `to take away`} has been succesful!` }))
+      this.setState(state => ({ msg: `Your petition of a ${this.state.form.size} ${this.state.form.type} burrito ${this.state.form.toTakeAway ? 'to take away' : ''} has been succesful!` }))
     } else {
       this.setState(state => ({ msg: validate.errMsg }))
     }

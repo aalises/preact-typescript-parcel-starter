@@ -8,10 +8,10 @@ export enum AccessError {
     REQUIRED_FIELDS = "Please select the type and size of your burrito"
 }
 export class orderBurritoFormModel {
-    size: string;
-    type: string;
-    toTakeAway: boolean;
-    comments: string;
+    size: string = '';
+    type: string = '';
+    toTakeAway: boolean = false;
+    comments: string = '';
 
     static validate(model: orderBurritoFormModel): validationResponse {
         let validationObject = {

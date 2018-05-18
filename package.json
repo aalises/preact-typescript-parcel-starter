@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "dev": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html -p 4200",
     "build": "parcel build ./src/index.html --public-url '/'"
   },
   "keywords": [
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "preact": "^8.2.9",
-    "preact-bind-group": "^2.0.1",
+    "preact-bind-group": "^2.0.1"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
