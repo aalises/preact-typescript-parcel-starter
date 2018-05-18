@@ -1,8 +1,5 @@
 import { h, Component } from "preact";
+import OrderBurritoForm from "./order-burrito-form";
 
-export default _ => (
-    <div>
-        Hello Preact.
-    </div>
-)
+export default _ => <OrderBurritoForm />
 

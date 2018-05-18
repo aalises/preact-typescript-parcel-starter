@@ -2,7 +2,16 @@ import { h, render } from "preact";
 import "./index.css";
 import Main from "./components/Main"
 
-render(<div>
-    <Main />
-</div>, document.getElementById("root"));
+declare const module: any
+
+const mountNode = document.getElementById('root');
+
+render(<Main />, mountNode, mountNode.lastChild as Element);
+
+// Hot Module Replacement
+if (module.hot) {
+    module.hot.accept();
+}
+
+
 
