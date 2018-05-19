@@ -17,7 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "preact": "^8.2.9",
-    "preact-bind-group": "^2.0.1"
+    "preact-bind-group": "^2.0.1",
+    "redux-zero": "^4.12.0"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
