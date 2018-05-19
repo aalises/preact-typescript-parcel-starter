@@ -18,4 +18,6 @@ Features:
 #### build the project (on /dist) `npm run build`
 #### run tests `npm run test`
 
-The starter includes a basic sample application showcasing the different technologies using [Bulma](https://bulma.io/) for styles. The example consists on a restaurant order making  form with validation/model and some global state management by storing the orders and displaying them on a table. Try it out!
+The starter includes a basic sample application showcasing the different technologies using [Bulma](https://bulma.io/) for styles. The example consists on a restaurant order making  form with validation/model and some global state management by storing the orders and displaying them on a table. Try it out here
+
+## [Demo of the Starter example](https://aalises.github.io/preact-typescript-parcel-starter/) 
