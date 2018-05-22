@@ -13,10 +13,12 @@ Features:
 - [Parcel:](https://github.com/parcel-bundler/parcel) 0 configuration bundler
 - [Jest:](https://github.com/facebook/jest) Delightful javascript testing
 - [Puppeteer:](https://github.com/GoogleChrome/puppeteer) Headless chrome node API scrapper
+- [Lynt:](https://github.com/saadq/lynt) 0 configuration linting for TS + React
 
 #### run development server `npm run dev` 
 #### build the project (on /dist) `npm run build`
 #### run tests `npm run test`
+#### run linting `npm run lint`
 
 The starter includes a basic sample application showcasing the different technologies using [Bulma](https://bulma.io/) for styles. The example consists on a restaurant order making  form with validation/model and some global state management by storing the orders and displaying them on a table. Try it out here
 
