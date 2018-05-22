@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
+    "lint": "lynt src/**/*.js --ignore tests/**/*.* --typescript --react",
     "dev": "parcel ./src/index.html -p 4200",
     "build": "parcel build ./src/index.html --public-url '/'"
   },
@@ -24,6 +25,7 @@
     "@types/jest": "^22.2.0",
     "@types/parcel-env": "0.0.0",
     "jest": "^22.4.4",
+    "lynt": "^0.1.1",
     "parcel-bundler": "^1.8.1",
     "parcel-plugin-typescript": "^0.7.1",
     "prettier": "^1.11.1",
