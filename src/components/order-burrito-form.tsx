@@ -102,8 +102,8 @@ export default class OrderBurritoForm extends ComponentForm<any, orderBurritoFor
                     </div>
                   </div>
                 </div>
-                    <button onClick={_ => this.submitForm()} class="button is-block is-info is-large is-fullwidth">Order Burrito</button>  
-                    <p class="help is-link has-text-weight-semibold"> {this.state.msg} </p>
+                    <button id="order-button" onClick={_ => this.submitForm()} class="button is-block is-info is-large is-fullwidth">Order Burrito</button>  
+                    <p id="order-message" class="help is-link has-text-weight-semibold"> {this.state.msg} </p>
                     </div>
                 </div>
         </FormGroup>
