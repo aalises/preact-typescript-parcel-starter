@@ -29,7 +29,7 @@ describe("Default test suite", () => {
     await page.select("select[data-bind='size']", "Medium");
     await page.click("#order-button");
     let message = await page.evaluate(_ => document.querySelector("#order-message").innerHTML);
-    expect(message).toEqual(' Your petition of a Medium Chicken burrito has been succesful! ');
+    expect(message).toEqual(' Your petition of a Medium Chicken burrito  has been succesful! ');
     await page.click("input[data-bind='toTakeAway']");
     await page.select("select[data-bind='type']", "Cheese");
     await page.click("#order-button");
