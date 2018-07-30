@@ -10,10 +10,10 @@ export default _ => (
         <h2 class="title is-2 has-text-grey has-text-centered">Simple Burrito Restaurant (Preact + TS + Redux Zero)</h2>
         <p class="subtitle has-text-grey has-text-centered">Example for the Starter Pack.</p>
     <div class="columns">
-    <div class="column is-half">
+    <div class="column is-5 is-offset-1">
         <OrderBurritoForm />
     </div>
-    <div class="column is-half">
+    <div class="column is-5">
         <TableOrders />
     </div>
     </div>
