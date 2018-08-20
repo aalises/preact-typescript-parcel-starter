@@ -1,9 +1,9 @@
-import { h, Component } from "preact";
+import { h } from "preact";
 import { FormGroup } from "preact-bind-group";
 import { ComponentForm } from "./component-form";
 import { orderBurritoFormModel } from "../models/order-burrito-model";
-import connectStore from "../connect"
-import { addOrder } from "../actions"
+import connectStore from "../store/connect"
+import { addOrder } from "../store/actions"
 
 @connectStore({ addOrder })
 export default class OrderBurritoForm extends ComponentForm<any, orderBurritoFormModel> {

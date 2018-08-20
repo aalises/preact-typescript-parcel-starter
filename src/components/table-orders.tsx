@@ -1,6 +1,6 @@
 import { h, Component } from "preact";
-import connectStore from "../connect";
-import { deleteLastOrder } from "../actions"
+import connectStore from "../store/connect";
+import { deleteLastOrder } from "../store/actions"
 
 @connectStore({deleteLastOrder})
 export default class TableOrders extends Component<any, any> {

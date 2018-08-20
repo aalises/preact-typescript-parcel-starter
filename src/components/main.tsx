@@ -1,8 +1,8 @@
-import { h, Component } from "preact";
+import { h } from "preact";
 import OrderBurritoForm from "./order-burrito-form";
 import TableOrders from "./table-orders";
 import { Provider } from "redux-zero/preact";
-import appStore from "../store";
+import appStore from "../store/store";
 
 export default _ => (
 <Provider store={appStore}>

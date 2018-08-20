@@ -1,4 +1,4 @@
-import { h, Component } from "preact";
+import { h } from "preact";
 import { Connect } from "redux-zero/preact";
 
 export default function(actions = {}): any {
