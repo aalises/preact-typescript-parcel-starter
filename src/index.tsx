@@ -1,5 +1,6 @@
 import { h, render } from "preact";
-import Main from "./components/Main"
+import "./index.css";
+import Main from "./components/main"
 
 declare const module: any
 
