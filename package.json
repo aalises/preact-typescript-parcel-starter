@@ -1,19 +1,18 @@
 {
-  "name": "how-long-king-gizzard-lizard-wizard-last-album",
+  "name": "preact-ts-parcel",
   "version": "1.2.0",
-  "description": "How Long Since the Last King Gizzard and the Lizard Wizard Album?",
+  "description": "Preact + Typescript + Parcel Starter",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
     "lint": "lynt src/**/*.js --ignore tests/**/*.* --typescript --react",
     "dev": "parcel ./src/index.html -p 4200",
-    "build": "rm -rf dist && parcel build ./src/index.html --public-url './' --no-cache --no-minify"
+    "build": "rm -rf dist && parcel build ./src/index.html --public-url '/'"
   },
   "keywords": [
     "Typescript",
     "Preact",
-    "Parcel",
-    "King Gizzard and the Lizard Wizard"
+    "Parcel"
   ],
   "author": "Albert Alises",
   "license": "MIT",
